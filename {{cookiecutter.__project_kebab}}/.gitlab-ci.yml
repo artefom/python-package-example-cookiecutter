@@ -1,0 +1,4 @@
+include:
+  - project: 'distribusion/common/gitlab-ci'
+    ref: 'master'
+    file: 'python-package.yaml'
