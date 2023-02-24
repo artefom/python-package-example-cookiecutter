@@ -10,6 +10,10 @@ dynamic = ["version", "description"]
 dependencies = []
 
 
+# If python only supposed to be imported, it must have lib.py file
+# If package has executable, put it into main.py file and uncomment
+# scritps section below
+
 # [project.scripts]
 # {{cookiecutter.__project_kebab}} = "{{cookiecutter.__project_slug}}.main:main"
 
